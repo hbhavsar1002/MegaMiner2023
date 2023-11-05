@@ -3,8 +3,8 @@ behaviors:
     trainer_type: poca
     hyperparameters:
       batch_size: 2048
-      buffer_size: 40960
-      learning_rate: 0.00051
+      buffer_size: 20480
+      learning_rate: 0.00101
       beta: 0.010
       epsilon: 0.25
       lambd: 0.95
@@ -20,7 +20,7 @@ behaviors:
         gamma: 0.995
         strength: 1.0
     keep_checkpoints: 5
-    max_steps: 15000000
+    max_steps: 20000000
     time_horizon: 1000
     summary_freq: 10000
     self_play:
